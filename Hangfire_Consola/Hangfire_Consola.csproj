@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hangfire" Version="1.8.2" />
+    <PackageReference Include="Hangfire.Core" Version="1.8.2" />
+    <PackageReference Include="Hangfire.SQLite" Version="1.4.2" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="7.0.7" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+  </ItemGroup>
+
+</Project>
